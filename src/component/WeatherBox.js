@@ -1,7 +1,7 @@
 import React from "react";
 
 const WeatherBox = ({ weather }) => {
-    const Fahrenheit = Math.ceil((weather?.main.temp * 1.8 + 32));
+    const Fahrenheit = Math.ceil(weather?.main.temp * 1.8 + 32);
     const Celsius = Math.ceil(weather?.main.temp);
 
     return (

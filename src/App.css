@@ -19,3 +19,12 @@ body {
     border-radius: 30px;
     background-color: azure;
 }
+
+.error {
+    border: 3px solid red;
+    color: red;
+    border-radius: 30px;
+    padding: 50px;
+    font-size: 30px;
+    background: rgba(9, 9, 9, 0.9);
+}
